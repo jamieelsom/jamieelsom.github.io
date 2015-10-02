@@ -1,6 +1,7 @@
 body {
-	background-color: white;
+		background-color: #E0E0EA;
 }
 h1, p {
-	color: black;
+		color: black;
+		font-family: 'Cabin', sans-serif;
 }
