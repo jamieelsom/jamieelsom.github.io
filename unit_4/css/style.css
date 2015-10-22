@@ -3,45 +3,58 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("../images/hero.jpg");
+	background-image: url("../images/7.jpg");
 	background-size: cover;
 	color: rgb(255,255,255);
 	font-size:16px;
 	font-family: Verdana, sans-serif;
 }
+/*.wrapper{
+	width: 100%;
+}*/
 header {
-	padding: 60px;
+	background-color: white;
+	padding: 1em;
+	overflow: hidden;
 }
 nav {
-	color: rgb(255,255,255);
 	float: right;
-	font-size: 15px;
-	padding: 10px;
+	font-size: 1em;
+	padding: 2em;
+}
+nav a {
+color: rgb(188,188,192);
 }
 nav li {
 	list-style-type: none;
 	display: inline;
-	padding: 5px;
+	padding: 0.5em;
 }
 section {
 	text-align:center;
 }
 p {
 	font-family: 'Open Sans', serif;
-	font-size: 1em;
+	font-size: 1.0em;
+	padding: 1.5em;
 }
 h1 {
 	font-size: 3em;
-	padding-top: 100px;
+	padding: 1em;
 	text-transform: uppercase;
 	font-family: Roboto, serif;
 }
 h2 {
-	font-size: 1.25em;
+	font-size: 1.5em;
+	padding: 2em;
+	text-transform: uppercase;
+	font-family: Roboto, serif;
 }
 
 hr {
-	width: 200px;
+	margin: 0 auto;
+	width: 5em;
+	
 }
 a {
 	color: rgb(255,255,255);
@@ -49,10 +62,25 @@ a {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.portbutton {
+.project{
+	float: left;
+	padding: 0.5em;
+	width: 50%;
+}
+#top{
+	padding: 7.5em;
+}
+#featured{
+	background-color: white;
+	color: black;
+	float: left;
+	padding: 0 7.5em 0 7.5em;
+	width: 100%;
+}
+.buttonwork {
 	border: 2px solid;
 	display:inline-block;
-	margin: 1em auto;
+	margin: 2.5em auto;
 	text-align: center;
 	padding:1em 2em;
 	text-decoration:none;
@@ -60,4 +88,6 @@ a {
 #logo{
 	float: left;
 	width:10em;
+	margin: 0.5em;
 }
+
