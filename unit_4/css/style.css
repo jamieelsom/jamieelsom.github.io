@@ -63,7 +63,21 @@ img {
    max-width: 100%;
     height: auto;
 }
+.service{
+	display: inline-block;
+	padding: 1em;
+	width: 15em;
+}
+.servicetext{
+	color:black;
+}
 .project{
+	color: black;
+	display: inline-block;
+	margin:1.5em;
+	vertical-align: middle;
+}
+.blogpost{
 	color: black;
 	display: inline-block;
 	margin:1.5em;
@@ -72,11 +86,16 @@ img {
 .caption{
 
 	max-width: 31.25em;
-	max-height:; 31.25em;
+	max-height: 31.25em;
 	text-align: justify;
 	border: 2px solid;
 }
 #featured{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+#featuredblog{
 	background-color: white;
 	color: black;
 	width: 100%;
@@ -100,4 +119,10 @@ img {
 #wrapper{
 	width: 100%;
 	margin: 0 auto;
+}
+#services
+{
+	background-color: white;
+	padding: 1.5em;
+	color: black;
 }
