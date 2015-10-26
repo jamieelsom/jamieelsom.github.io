@@ -3,16 +3,21 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("../images/19.jpg");
+	background-image: url("../images/bg/blurredbackground11.jpg");
 	background-size: cover no-repeat;
 	color: rgb(255,255,255);
 	font-size:16px;
 	font-family: Verdana, sans-serif;
+	background-attachment:fixed
 }
 header {
-	/*background-color: white;*/
+	background-color: white;
 	padding: 1em;
 	overflow: hidden;
+}
+footer{
+	background-color: #2C4E69;
+	min-height: 15em;
 }
 nav {
 	float: right;
@@ -20,11 +25,11 @@ nav {
 	padding: 2em;
 }
 nav a {
-color: rgb(255,255,255);
+color: #2C4E69;
 }
 nav li {
-	list-style-type: none;
 	display: inline;
+	list-style-type: none;
 	padding: 0.5em;
 }
 section {
@@ -36,10 +41,10 @@ p {
 	padding: 1.5em;
 }
 h1 {
+	font-family: Roboto, serif;
 	font-size: 3em;
 	padding: 1em;
 	text-transform: uppercase;
-	font-family: Roboto, serif;
 }
 h2 {
 	font-size: 1.5em;
@@ -60,51 +65,53 @@ a {
 	text-transform: uppercase;
 }
 img {
-   max-width: 100%;
-    height: auto;
+	height: auto;
+	max-width: 100%;
+}
+.more
+{
+	margin: 0 auto;
+	display: inline-block;
+	float: left;
+}
+#main{
+	background-color: white;
+	color: black;
+}
+#main h2 {
+	color: #2C4E69;
 }
 .service{
+	background-color: white;
+	border-radius: 1.5em;
 	display: inline-block;
 	padding: 1em;
-	width: 15em;
+	width: 16em;
+	margin: 1.5em;
 }
-.servicetext{
+.service img{
+		vertical-align: top;
+		margin: 1.5em;
+		}
+.service:hover{
+	background-color: #E8E8E8;
+}
+.servicetext
+{
+	max-height: 12em;
+	margin: 0.5em;
+	overflow: none;
+}
+.servicetext p{
 	color:black;
+	font-size: 0.75em;
 }
-.project{
+.servicetext a{
 	color: black;
-	display: inline-block;
-	margin:1.5em;
-	vertical-align: middle;
-}
-.blogpost{
-	color: black;
-	display: inline-block;
-	margin:1.5em;
-	vertical-align: middle;
-}
-.caption{
-
-	max-width: 31.25em;
-	max-height: 31.25em;
-	text-align: justify;
-	border: 2px solid;
-}
-#featured{
-	background-color: white;
-	color: black;
-	width: 100%;
-}
-#featuredblog{
-	background-color: white;
-	color: black;
-	width: 100%;
-}
-#top{
-	padding: 1.5em;
 }
 .buttonwork {
 	border: 2px solid;
+	border-radius: 1.5em;
 	display:inline-block;
 	margin: 2.5em auto;
 	padding:1em 2em;
@@ -116,13 +123,14 @@ img {
 	margin: 0.5em;
 	width:10em;
 }
-#wrapper{
-	width: 100%;
+.wrapper{
 	margin: 0 auto;
 }
 #services
 {
-	background-color: white;
-	padding: 1.5em;
 	color: black;
+	margin: 1.5em;
+}
+#top{
+	padding: 1.5em;
 }

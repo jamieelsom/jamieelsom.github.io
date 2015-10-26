@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-image: url("../images/bg/blurredbackground11.jpg");
+	background-size: cover no-repeat;
+	color: rgb(255,255,255);
+	font-size:16px;
+	font-family: Verdana, sans-serif;
+	background-attachment:fixed
+}
+section{
+	background-color: #FFE2B8;
+}
+article{
+	background-color: #E89C6C;
+}
+header {
+	background-color: #FFED74;
+	padding: 1em;
+	overflow: hidden;
+}
+footer{
+	background-color: #FF957E;
+	min-height: 15em;
+}
+nav {
+	float: right;
+	font-size: 1em;
+	padding: 2em;
+	background-color: #E8C66A;
+}
+nav a {
+color: #2C4E69;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding: 0.5em;
+}
+section {
+	text-align:center;
+	background-color: #FFE2B8;
+}
+p {
+	font-family: 'Open Sans', serif;
+	font-size: 1.0em;
+	padding: 1.5em;
+}
+h1 {
+	font-family: Roboto, serif;
+	font-size: 3em;
+	padding: 1em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.5em;
+	padding: 2em;
+	text-transform: uppercase;
+	font-family: Roboto, serif;
+}
+
+hr {
+	margin: 0 auto;
+	width: 5em;
+	
+}
+a {
+	color: rgb(255,255,255);
+	font-family: Roboto, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+.more
+{
+	margin: 0 auto;
+	display: inline-block;
+	float: left;
+}
+#main{
+	background-color: white;
+	color: black;
+}
+#main h2 {
+	color: #2C4E69;
+}
+.service{
+	background-color: white;
+	border-radius: 1.5em;
+	display: inline-block;
+	padding: 1em;
+	width: 16em;
+	margin: 1.5em;
+}
+.service img{
+		vertical-align: top;
+		margin: 1.5em;
+		}
+.service:hover{
+	background-color: #E8E8E8;
+}
+.servicetext
+{
+	max-height: 12em;
+	margin: 0.5em;
+	overflow: none;
+}
+.servicetext p{
+	color:black;
+	font-size: 0.75em;
+}
+.servicetext a{
+	color: black;
+}
+.buttonwork {
+	border: 2px solid;
+	border-radius: 1.5em;
+	display:inline-block;
+	margin: 2.5em auto;
+	padding:1em 2em;
+	text-align: center;
+	text-decoration:none;
+}
+#logo{
+	float: left;
+	margin: 0.5em;
+	width:10em;
+}
+.wrapper{
+	margin: 0 auto;
+
+}
+#services
+{
+	color: black;
+	margin: 1.5em;
+}
+#top{
+	padding: 1.5em;
+}
