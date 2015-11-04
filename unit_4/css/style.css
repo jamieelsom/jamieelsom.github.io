@@ -3,12 +3,9 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("../images/bg/blurredbackground11.jpg");
-	background-size: cover no-repeat;
 	color: rgb(255,255,255);
 	font-size:16px;
 	font-family: Verdana, sans-serif;
-	background-attachment:fixed
 }
 header {
 	background-color: white;
@@ -17,7 +14,15 @@ header {
 }
 footer{
 	background-color: #2C4E69;
+	clear:both;
+	color: white;
 	min-height: 15em;
+}
+.footercol
+{
+width: 316px;
+float: left;
+display: inline-block;
 }
 nav {
 	float: right;
@@ -68,6 +73,18 @@ img {
 	height: auto;
 	max-width: 100%;
 }
+.column{
+	width:316px;
+	float:left;
+	background-color: white;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
 .more
 {
 	margin: 0 auto;
@@ -86,7 +103,7 @@ img {
 	border-radius: 1.5em;
 	display: inline-block;
 	padding: 1em;
-	width: 16em;
+	width: 216px;
 	margin: 1.5em;
 }
 .service img{
@@ -125,6 +142,7 @@ img {
 }
 .wrapper{
 	margin: 0 auto;
+	width: 950px;
 }
 #services
 {
@@ -132,5 +150,8 @@ img {
 	margin: 1.5em;
 }
 #top{
-	padding: 1.5em;
+	padding: 5.5em;
+	background-image: url("../images/bg/blurredbackground11.jpg");
+	background-size: cover no-repeat;
+	background-attachment:fixed;
 }
