@@ -164,7 +164,7 @@ img {
 }
 
 #left {
-    background-color: violet;
+    background-color: white;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -173,7 +173,7 @@ img {
 }
 
 #right {
-    background-color: pink;
+    background-color: white;
     border: 1px black solid;
     padding: 20px;
     float: right;   
