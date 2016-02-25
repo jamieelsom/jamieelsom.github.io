@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Candal);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -11,6 +12,7 @@ header {
 	background-color: white;
 	padding: 1em;
 	overflow: hidden;
+	width: 
 }
 footer{
 	background-color: #2C4E69;
@@ -44,18 +46,25 @@ p {
 	font-family: 'Open Sans', serif;
 	font-size: 1.0em;
 	padding: 1.5em;
+	color: black;
 }
 h1 {
-	font-family: Roboto, serif;
-	font-size: 3em;
+	font-family: Candal, serif;
+	font-size: 3.5em;
 	padding: 1em;
 	text-transform: uppercase;
-}
-h2 {
+	color: #bcbec0;
+	}
+	h2 {
 	font-size: 1.5em;
 	padding: 2em;
-	text-transform: uppercase;
 	font-family: Roboto, serif;
+	color: black;
+}
+.wrapper h2 {
+	font-size: 1em;
+	padding: 2em;
+	font-family: 'Open Sans', serif;
 }
 
 hr {
@@ -74,7 +83,7 @@ img {
 	max-width: 100%;
 }
 .column{
-	width:316px;
+	width:15em;
 	float:left;
 	background-color: white;
 }
@@ -142,7 +151,7 @@ img {
 }
 .wrapper{
 	margin: 0 auto;
-	width: 950px;
+	width: 1000px;
 }
 #services
 {
@@ -151,7 +160,7 @@ img {
 }
 #top{
 	padding: 5.5em;
-	background-image: url("../images/19.jpg");
+	
 	background-size: cover no-repeat;
 	background-attachment:fixed;
 }
