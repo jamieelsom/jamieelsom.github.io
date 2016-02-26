@@ -1,0 +1,29 @@
+/* table-layout
+========================*/
+body {
+	padding-top: 100px;
+}
+.container {
+	max-width: 1000px;
+}
+
+/* glyphicons
+========================*/
+
+.glyphicon {
+	text-align: center;
+	color: #bcbec0;
+	display: block;
+	font-size: 3em;
+}
+.navbar {
+	height: 100px;
+	background-color: white;
+}
+.jumbotron{
+	height: 500px;
+	background-image: url("../images/woman.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
