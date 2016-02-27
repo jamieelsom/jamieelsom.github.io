@@ -21,8 +21,8 @@ body {
 	background-color: white;
 }
 .jumbotron{
-	height: 500px;
-	background-image: url("../images/woman.jpg");
+	height: 800px;
+	background-image: url("../images/wmn.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
