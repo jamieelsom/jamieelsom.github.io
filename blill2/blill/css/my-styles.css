@@ -1,0 +1,80 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* table-layout
+========================*/
+body {
+	padding-top: 90px;
+}
+.container {
+	max-width: 1000px;
+}
+H1
+{
+	font-family: Montserrat;
+}
+h2{
+	padding: 10px;
+}
+/* glyphicons
+========================*/
+
+.glyphicon {
+	text-align: center;
+	color: #bcbec0;
+	display: block;
+	font-size: 3em;
+}
+.navbar {
+	height: 90px;
+	background-color: #fff;
+	border-bottom: 0;
+
+
+}
+.jumbotron{
+	
+	background-color: #42d2e6;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+    height: 400px;
+
+}
+
+.navbar-nav li a {
+ line-height: 55px;
+}
+ul.nav li a, ul.nav li a:visited {
+    color: #bcbec0 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #bcbec0 !important;
+}
+
+ul.nav li.active a {
+    color: #bcbec0 !important;
+}
+.seo-image
+{
+	background-image: url("images/6.jpg");
+	background-size: 100%;
+	display: block;
+}
+.row
+{
+ margin-top: 30px;
+  margin-bottom: 30px;
+}
+.center-col
+{
+	text-align: center;
+}
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+.blue-block{
+	background-color: #42d2e6;
+}
