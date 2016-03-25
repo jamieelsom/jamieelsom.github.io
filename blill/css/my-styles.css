@@ -1,78 +1,57 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 /* table-layout
 ========================*/
 body {
-
+background-color: #e9eaec;
 }
 .container {
 	max-width: 1000px;
 }
 h1 h2
 {
-	font-family: Montserrat;
+font-family: 'Fjalla One', sans-serif;
+
 }
 h2{
 	padding: 10px;
+	font-size: 3.5em;
 }
 p{
-	font-size: 1.5em;
-	margin: 20px;
-}
-/* glyphicons
-========================*/
-
-.glyphicon {
-	text-align: center;
-	color: #bcbec0;
-	display: block;
-	font-size: 3em;
+	font-size: 1.25em;
+	margin: 25px;
 }
 .navbar {
 	height: 90px;
 	border-bottom: 0;
-
-
+	background-color: #fff;
 }
 .jumbotron{
 	
+	background-color: white;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
     height: 600px;
    padding-top: 200px;
-
+font-family: 'Montserrat';
 }
 
 .navbar-nav li a {
  line-height: 55px;
 }
 ul.nav li a, ul.nav li a:visited {
-    color: #fff !important;
+    color: #bcbec0 !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: #fff !important;
+    color: #42d2e6 !important;
 }
 
 ul.nav li.active a {
-    color: #fff !important;
-}
-.seo-image
-{
-	background-image: url("images/6.jpg");
-	background-size: 100%;
-	display: block;
-}
-.row
-{
- margin-top: 30px;
-  margin-bottom: 30px;
-}
-.center-col
-{
-	text-align: center;
+    color: #D35292 !important;
 }
 .parallax-window {
     min-height: 600px;
@@ -81,20 +60,6 @@ ul.nav li.active a {
 .blue-block{
 
 	border: 1px;
-}
-
- .navbar-default{
-   background: rgba(0,0,0,0.4);
-   color: white;
-}
-.grey-box
-{
-	background-color: #707070;
-	color: white;
-}
-.caption-padding
-{
-	
 }
 .btn.outline {
     background: none;
@@ -112,4 +77,24 @@ ul.nav li.active a {
     border-color: #007299;
     color: #007299;
     box-shadow: none;
+}
+.col2 h2
+{
+
+text-align: center;
+color: #D35292;
+}
+.col1 h2
+{
+text-align: center;
+color: #42d2e6;
+}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+background-color:blue;	
+}
+.whitecon
+{
+	background-color: white;
 }
