@@ -20,23 +20,25 @@ h2{
 }
 p{
 	font-size: 1.25em;
-	margin: 25px;
+	padding: 20px;
 }
 .navbar {
-	height: 90px;
+	height: 100px;
 	border-bottom: 0;
 	background-color: #fff;
 }
-.jumbotron{
+
+.jumbotron {
 	
 	background-color: white;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
-    height: 600px;
+    height: 700px;
    padding-top: 200px;
 font-family: 'Montserrat';
+margin: 0;
 }
 
 .navbar-nav li a {
@@ -81,20 +83,24 @@ ul.nav li.active a {
 .col2 h2
 {
 
-text-align: center;
 color: #D35292;
 }
 .col1 h2
 {
-text-align: center;
+
 color: #42d2e6;
+}
+.col1
+{
+
+
+}
+.col2
+{
+
 }
 .container-full {
   margin: 0 auto;
   width: 100%;
 background-color:blue;	
-}
-.whitecon
-{
-	background-color: white;
 }
