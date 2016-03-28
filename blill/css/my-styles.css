@@ -1,106 +1,44 @@
+/*Body Styles*/
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* Font Styles */
+@import url(https://fonts.googleapis.com/css?family=Average);
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
-/* table-layout
-========================*/
-body {
-background-color: #e9eaec;
-}
-.container {
-	max-width: 1000px;
-}
-h1 h2
-{
-font-family: 'Fjalla One', sans-serif;
 
+h1, h2, h3, h4
+{
+	font-family: 'Fjalla One', sans-serif;
 }
-h2{
-	padding: 10px;
-	font-size: 3.5em;
+p {
+	font-family: 'Average', sans-serif;
+	font-size: 1.5em;
 }
-p{
-	font-size: 1.25em;
+/* Header */
+.jumbotron{
+	background-image: url('../images/woman.jpg');
+	background-size: cover;
+	min-height: 500px;
+}
+.jumbotron h1, h3 {
+	color: white;
+}
+.main-heading{
+		background-color: rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+.nav{
+	height: 100px;
 	padding: 20px;
 }
-.navbar {
-	height: 100px;
-	border-bottom: 0;
-	background-color: #fff;
-}
 
-.jumbotron {
-	
-	background-color: white;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: white;
-    height: 700px;
-   padding-top: 200px;
-font-family: 'Montserrat';
-margin: 0;
-}
-
-.navbar-nav li a {
- line-height: 55px;
-}
-ul.nav li a, ul.nav li a:visited {
-    color: #bcbec0 !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-    color: #42d2e6 !important;
-}
-
-ul.nav li.active a {
-    color: #D35292 !important;
-}
-.parallax-window {
-    min-height: 600px;
-    background: transparent;
-}
-.blue-block{
-
-	border: 1px;
-}
-.btn.outline {
-    background: none;
-    padding: 12px 22px;
-}
-.btn-primary.outline {
-    border: 2px solid #fff;
-    color: #fff;
-}
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-    color: #33a6cc;
-    border-color: #33a6cc;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-    border-color: #007299;
-    color: #007299;
-    box-shadow: none;
-}
-.col2 h2
-{
-
-color: #D35292;
-}
-.col1 h2
-{
-
-color: #42d2e6;
-}
-.col1
-{
-
+/*Column Styles */
+.col1 h2{
+	color: #42d2e6;
 
 }
-.col2
-{
-
+.col2 h2{
+	color: #FF6F00;
 }
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-background-color:blue;	
+.col3 h2{
+	color: #FF198D;
 }
