@@ -1,0 +1,110 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Average);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+h1, h2, h3, h4 {
+	font-family: 'Fjalla One', sans-serif;
+}
+p{
+	font-family: Average; serif;
+	font-size: 1.25em;
+}
+/*NAV*/
+.navbar{
+	min-height: 100px;
+	background-color: white;
+	margin-bottom: 0px;
+	border: 0;
+	border-radius: 0;
+}
+.nav-link{
+	color: #bcbec0;
+}
+.nav-pills{
+	margin-top: 25px;
+}
+.container-nav{
+	max-width: 1200px;
+}
+/*Jumbotron-Home*/
+.parallax-window{
+	text-align: center;
+	background-size: cover;
+    height: 100vh;
+	color: white;
+	display: auto;
+	margin:100px 0 0 0;
+	padding: 50px;
+}
+.parallax-window h1{
+	font-size: 5.5em;
+}
+.jumbotron-quote
+{
+	background-color: #42d2e6;
+	color: white;
+	margin: 0 0 20px 0;
+	min-height: 250px;
+	padding: 50px;
+}
+.jumbotron-testimonial
+{
+	background-color: #42d2e6;
+	color: white;
+	margin: 20px 0 20px 0;
+}
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.carousel-control.right
+{
+	background-image: none;
+}
+.carousel-control.left
+{
+	background-image: none;
+}
+.container-footer{
+	min-height: 200px;
+	background-color: #474747;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+.carousel-content{
+	color: white;
+}
+.navbar-brand{
+margin-bottom: 30px;
+}
+.navbar-pills .navbar-toggle .icon-bar {
+    background-color: #bcbec0;
+}
+.glyphicon.glyphicon-menu-down {
+    font-size: 75px;
+    color: white;
+}
+.glyphicon.glyphicon-home{
+	padding: 10px;
+
+}
+.glyphicon.glyphicon-comment{
+	padding: 10px;
+}
+.glyphicon.glyphicon-menu-up {
+    font-size: 75px;
+    color: white;
+}
+.copywrite{
+	color: grey;
+}

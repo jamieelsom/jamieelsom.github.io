@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Candal);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -9,7 +8,7 @@ body {
 	font-family: Verdana, sans-serif;
 }
 header {
-	
+	background-color: white;
 	padding: 1em;
 	overflow: hidden;
 }
@@ -18,18 +17,6 @@ footer{
 	clear:both;
 	color: white;
 	min-height: 15em;
-}
-.headerwrap
-{
-	width: 50%;
-	margin: 0 auto;
-}
-.heroimage {
-	background-image: url("../images/5.jpg");
-	height: 55em;
-	background-size: cover;
-	background-repeat: no-repeat;
-
 }
 .footercol
 {
@@ -57,26 +44,18 @@ p {
 	font-family: 'Open Sans', serif;
 	font-size: 1.0em;
 	padding: 1.5em;
-	color: black;
 }
 h1 {
 	font-family: Roboto, serif;
-	font-size: 2.5em;
-	padding: 2.5em;
+	font-size: 3em;
+	padding: 1em;
 	text-transform: uppercase;
-	color: white;
-	}
-	h2 {
+}
+h2 {
 	font-size: 1.5em;
 	padding: 2em;
+	text-transform: uppercase;
 	font-family: Roboto, serif;
-	color: white;
-}
-.wrapper h2 {
-	font-size: 1em;
-	padding: 2em;
-	font-family: 'Open Sans', serif;
-	color: white;
 }
 
 hr {
@@ -95,24 +74,9 @@ img {
 	max-width: 100%;
 }
 .column{
-	width:15em;
+	width:316px;
 	float:left;
-
-	margin: 1.5em;
-	padding: 0.5em;
-	float: left;
-}
-.column h2{
-	color: black;
-}
-.icon
-{
-	width:2.5em;
-	float: left;
-	height: 2.5em;
-	background-image: url("../images/icon.jpg");
-	margin: 1.5em;
-	background-size: cover;
+	background-color: white;
 }
 .clearfix:after { 
    content: "."; 
@@ -174,11 +138,11 @@ img {
 #logo{
 	float: left;
 	margin: 0.5em;
-	width:1em;
+	width:10em;
 }
 .wrapper{
 	margin: 0 auto;
-	width: 1000px;
+	width: 950px;
 }
 #services
 {
@@ -187,10 +151,12 @@ img {
 }
 #top{
 	padding: 5.5em;
+	background-image: url("../images/bg/blurredbackground11.jpg");
 	background-size: cover no-repeat;
 	background-attachment:fixed;
 }
 #two_column {
+    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
     width: 100%
@@ -198,7 +164,7 @@ img {
 }
 
 #left {
-    background-color: white;
+    background-color: violet;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -207,14 +173,10 @@ img {
 }
 
 #right {
-    background-color: white;
+    background-color: pink;
     border: 1px black solid;
     padding: 20px;
     float: right;   
     width: 49%;
     margin: 2px;
-}
-#col-container{
-	width: 950px;
-	margin: 0 auto;
 }
